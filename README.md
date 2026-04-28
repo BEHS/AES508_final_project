@@ -32,3 +32,5 @@ To estimate the statistical significance of the differences between urban and ru
 **Data processing in Python:**
 
 **1. Zonal statistics:**
+This function calculates zonal statistics from multiple rasters (LST) using the LCZ classification by code (shapefile) and save the results to csv format. It uses the following libraries available in Python: os, geopandas, rioxarray, geocube, and xrspatial. In the function it asks to provide the input data in raster format(tif) LST.  The section that generates the zonal statistics is required to provide the shapefile that will be used for the zonal statistics, the name of the output folder, and the column of the shapefile that will be used for the statistical analysis. The result is multiple tables in csv format in a folder. Each csv file contains the results of the individual results of each of the rasters (LST) by the shapefile (LCZ code). 
+
