@@ -49,6 +49,10 @@ This function uses the “boxplot” function of the seaborn library to display 
 
 * The results show that May has the highest LST and December the lowest LST for all the LCZs (code).
 
+<img width="366" height="278" alt="image" src="https://github.com/user-attachments/assets/e093fade-6da1-4f8a-9b31-c7186190f78c" />
+
+**Figure 1.** Example.
+
 ## Outcomes
 1. This Python-based code can be used to replicate and upscale the analysis to other years and places. 
 
