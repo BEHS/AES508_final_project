@@ -1,5 +1,5 @@
 # Evaluating the Intensity of the Urban Heat Island in San Salvador, El Salvador
-*April 28, 2026*
+*04.28.2026*
 
 ## Description
 This is a Python toolkit that helps decision makers from San Salvador, El Salvador to assess the areas most affected by the Urban Heat Island (UHI) effect. The toolkit includes visualization of the areas most affected by heat, statistical analysis, and time series analysis from 2025 using land surface temperature (LST) and Local Climatic Zones (LCZ).
@@ -55,6 +55,26 @@ This function uses the “boxplot” function of the seaborn library to display 
 2. Statistical significance analysis of the comparison of LST between urban areas (LCZ 1,2,3) and rural areas (LCZ 6 and 9) for 2025 for San Salvador, El Salvador. 
 
 3. Plotting of the results using boxplot and ineplot, to visualize the distribution of the data and the timeseries analysis. 
+
+## References
+* Jamei, E.,  Ossen, D.R., Seyedmahmoudian, M., Sandanayake, M., Stojcevski, A., Horan, B. 2020. Urban design parameters for heat mitigation in tropics. Renewable and Sustainable Energy Reviews, Volume 134, 2020, 110362, ISSN 1364-0321. https://doi.org/10.1016/j.rser.2020.110362.
+
+* National Oceanic and Atmospheric Administration (NOAA). 2024. Weather Related Fatality and Injury Statistics. Web page. https://www.weather.gov/hazstat. Accessed 04/2026.
+
+* Oke, T.R. 1973. City size and the urban heat island. Atmospheric Environment, 7(8): 769-779. https://doi.org/10.1016/0004-6981(73)90140-6.
+
+* Oke, T.R., Mills, G., Christen, A., Voogt, J.A. 2017. Urban Climates. Cambridge University Press. Cambridge, UK. ISBN: 9780521849500, 0521849500. 525 pp.
+
+* Rahmani, N., Sharifi, A. 2025. Urban heat dynamics in Local Climate Zones (LCZs): A systematic review. Building and Environment, 267 (B), 112225. https://doi.org/10.1016/j.buildenv.2024.112225.
+
+* Son, N.T., Chen, C.F., Chen, C.R. 2020. Urban expansion and its impacts on local temperature in San Salvador, El Salvador. Urban Climate, 32: 100617. https://doi.org/10.1016/j.uclim.2020.100617.
+
+* Stewart, I.D. & T.R. Oke. 2012. Local Climate Zones for Urban Temperature Studies. Bulletin of the American Meteorological Society, 93(12): 1879-1900. https://doi.org/10.1175/BAMS-D-11-00019.1.
+
+* United Nations World Health Organization (WHO). 2025. Heatwaves. Web page. https://www.who.int/health-topics/heatwaves/. Accessed 04/2026.
+
+* Wei, L., Sobrino, J.A. 2024. Surface urban heat island analysis based on local climate zones using ECOSTRESS and Landsat data: A case study of Valencia city (Spain). International Journal of Applied Earth Observation and Geoinformation, 130: 103875. https://doi.org/10.1016/j.jag.2024.103875.
+
 
 
 
