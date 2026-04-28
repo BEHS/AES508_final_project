@@ -34,3 +34,24 @@ To estimate the statistical significance of the differences between urban and ru
 **1. Zonal statistics:**
 This function calculates zonal statistics from multiple rasters (LST) using the LCZ classification by code (shapefile) and save the results to csv format. It uses the following libraries available in Python: os, geopandas, rioxarray, geocube, and xrspatial. In the function it asks to provide the input data in raster format(tif) LST.  The section that generates the zonal statistics is required to provide the shapefile that will be used for the zonal statistics, the name of the output folder, and the column of the shapefile that will be used for the statistical analysis. The result is multiple tables in csv format in a folder. Each csv file contains the results of the individual results of each of the rasters (LST) by the shapefile (LCZ code). 
 
+**2. Concatenate all individual  tables into one single table:**
+The function concatenates all the single tables (csv)  into one single table (csv).
+
+**Performs t-test to assess statistical significance:"
+This function performs independent t-test on two columns from the same CSV. This function compares the statistical significance of the mean, max, and minimum LST  results of  code 801 and 1001 (high percentage of impervious surface and minimum urban vegetation) with code 802 and 1002 (build areas with less percentage of impervious surfaces with higher urban vegetation). 
+
+The results of this analysis indicated that there is a statistical significance (mean: p-value 0.000, max: p-value 0.0333, minimum: p-value 0.0146) between the LST and the LCZs (code).
+
+**Plot of the results:**
+This function uses the “boxplot” function of the seaborn library to display the distribution of the data and compare the results. For the time series analysis plot, it uses “lineplot” function which is used to show trends over time visualizing the relationship between two variables. 
+
+The results show that May has the highest LST and June the lowest LST for all the LCZs (code).
+
+## Outcomes
+*This Python-based code can be used to replicate and upscale the analysis to other years and places. 
+*Statistical significance analysis of the comparison between the LST with the LCZs for 2025 for San Salvador, El Salvador. 
+*Plotting of the results using boxplot and ineplot, to visualize the distribution of the data and the timeseries analysis. 
+
+
+
+

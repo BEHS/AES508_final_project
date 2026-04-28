@@ -1,0 +1,8 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_COUNT">49005.000000</MDI>
+      <MDI key="STATISTICS_MEDIAN">nan</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
