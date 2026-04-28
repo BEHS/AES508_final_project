@@ -39,12 +39,12 @@ This function calculates zonal statistics from multiple rasters (LST) using the 
 **2. Concatenate all individual  tables into one single table:**
 The function concatenates all the single tables (csv)  into one single table (csv).
 
-**Performs t-test to assess statistical significance:**
+**3. Performs t-test to assess statistical significance:**
 This function performs independent t-test on two columns from the same CSV. This function compares the statistical significance of the mean, max, and minimum LST  results of  code 801 and 1001 (high percentage of impervious surface and minimum urban vegetation) with code 802 and 1002 (build areas with less percentage of impervious surfaces with higher urban vegetation). 
 
 * The results of this analysis indicated that there is a statistical significance (mean: p-value 0.000, max: p-value 0.0333, minimum: p-value 0.0146) between urban areas (LCZs 1,2,3) and rural areas (LCZ 6 and 9).
 
-**Plot of the results:**
+**4. Plot of the results:**
 This function uses the “boxplot” function of the seaborn library to display the distribution of the data and compare the results. For the time series analysis plot, it uses “lineplot” function which is used to show trends over time visualizing the relationship between two variables. 
 
 * The results show that May has the highest LST and December the lowest LST for all the LCZs (code).
