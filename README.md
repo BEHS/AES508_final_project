@@ -20,6 +20,35 @@ This research aims to provide municipal decision-makers with data that can be us
 ## Methods
 The study area is the San Salvador metropolitan area in El Salvador. The city's mean temperature has increased by approximately 1.3°C during the past six decades with projections to continue to increase, and increased urbanization is likely to exacerbate the UHI effect, resulting in public health issues ([Son et al. 2020](https://doi.org/10.1016/j.uclim.2020.100617)).
 
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+          [-89.32672644435677, 13.834322666128829],
+          [-89.32672644435677, 13.634219045628384],
+          [-89.05138159572395, 13.634219045628384],
+          [-89.05138159572395, 13.834322666128829],
+          [-89.32672644435677, 13.834322666128829]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
+
+**Figure 1.** The study area: the San Salvador metropolitan area.
+
 To estimate **UHI intensity (UHII)**, I used [Oke (1973)](https://doi.org/10.1016/0004-6981(73)90140-6)’s methodology, which evaluates the differences between the average and maximum temperatures of urban areas, contrasted with those parameters for nearby rural areas. As an input to this, I derived LCZs for San Salvador, using a range of inputs (mainly from high spatial resolution multispectral imagery), and based on Oke et al. (2017). I reclassified LCZs 1,2,3, as urban areas, and LCZs 6 and 9 as rural. To estimate the mean and maximum temperatures, I used LST data derived from the thermal infrared bands of the [Landsat-8](https://www.usgs.gov/landsat-missions/landsat-8) and [Landsat-9](https://www.usgs.gov/landsat-missions/landsat-9) satellites. 
 
 **Table 1.** Data reclassification scheme.
@@ -57,7 +86,7 @@ This function uses the “boxplot” function of the [*seaborn*](https://seaborn
 
 <img width="366" height="278" alt="image" src="https://github.com/user-attachments/assets/e093fade-6da1-4f8a-9b31-c7186190f78c" />
 
-**Figure 1.** Average UHII per LCZ in San Salvador.
+**Figure 2.** Average UHII per LCZ in San Salvador.
 
 ## Outputs
 1. This [Python Notebook](https://github.com/BEHS/AES508_final_project/blob/main/python_notebook/research_prj.ipynb) can be used to replicate and upscale the analysis to other years and places. 
