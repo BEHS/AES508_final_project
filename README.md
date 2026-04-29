@@ -59,7 +59,7 @@ This function uses the “boxplot” function of the [*seaborn*](https://seaborn
 
 **Figure 1.** Average UHI per LCZ.
 
-## Outcomes
+## Outputs
 1. This [Python Notebook](https://github.com/BEHS/AES508_final_project/blob/main/python_notebook/research_prj.ipynb) can be used to replicate and upscale the analysis to other years and places. 
 
 2. Statistical significance analysis of the comparison of LST between urban areas (LCZs 1, 2, 3) and rural areas (LCZs 6, 9) for 2025 for San Salvador, El Salvador. 
