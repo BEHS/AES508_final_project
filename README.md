@@ -33,7 +33,7 @@ To estimate **UHI intensity (UHII)**, I used [Oke (1973)](https://doi.org/10.101
 
 Group 1 includes LCZ 1 (compact highrise), LCZ 2 (compact midrise), and LCZ 3 (compact lowrise). Group 2 includes LCZ 6 (open lowrise) and LCZ 9 (sparsely built).
 
-To estimate the statistical significance of the differences between urban and rural land surface temperatures, I compared the average and maximum temperatures using a t-test to determine if the difference between the urban and rural areas were statistically significant or due to chance, by calculating the p-value. This analysis provides policy-makers with a degree of confidence in the robustness of the analysis and understanding the impacts of vegetation removal on exacerbating the UHI, and identify areas that need to be prioritized for mitigation interventions.
+To estimate the statistical significance of the differences between urban and rural land surface temperatures, I compared the average and maximum temperatures using a t-test to determine if the difference between the urban and rural areas were statistically significant or due to chance, by calculating the p-value. This analysis provides policy-makers with a degree of confidence in the robustness of the analysis and understanding the impacts of vegetation removal on exacerbating the UHI, and identify areas that need to be prioritized for mitigation interventions. The input data can be found [here](https://github.com/BEHS/AES508_final_project/tree/main/input_data).
 
 **Data processing in Python:**
 
@@ -60,7 +60,7 @@ This function uses the “boxplot” function of the [*seaborn*](https://seaborn
 **Figure 1.** Average UHI per LCZ.
 
 ## Outcomes
-1. This Python-based code can be used to replicate and upscale the analysis to other years and places. 
+1. This [Python Notebook](https://github.com/BEHS/AES508_final_project/blob/main/python_notebook/research_prj.ipynb) can be used to replicate and upscale the analysis to other years and places. 
 
 2. Statistical significance analysis of the comparison of LST between urban areas (LCZs 1, 2, 3) and rural areas (LCZs 6, 9) for 2025 for San Salvador, El Salvador. 
 
