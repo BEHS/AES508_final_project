@@ -93,7 +93,9 @@ This function uses the “boxplot” function of the [*seaborn*](https://seaborn
 
 2. Statistical significance analysis of the comparison of LST between urban areas (LCZs 1, 2, 3) and rural areas (LCZs 6, 9) for 2025 for San Salvador, El Salvador. 
 
-3. Plotting of the results using boxplot and ineplot, to visualize the distribution of the data and the time series analysis. 
+3. Plotting of the results using boxplot and ineplot, to visualize the distribution of the data and the time series analysis.
+
+4. A [slide deck](https://github.com/BEHS/AES508_final_project/blob/main/documentation/AES508_Python_UHI_BHS_2026-04-29.pdf) documenting this project.
 
 ## References
 * Jamei, E.,  Ossen, D.R., Seyedmahmoudian, M., Sandanayake, M., Stojcevski, A., Horan, B. 2020. Urban design parameters for heat mitigation in tropics. *Renewable and Sustainable Energy Reviews*, Volume 134, 2020, 110362, ISSN 1364-0321. https://doi.org/10.1016/j.rser.2020.110362.
