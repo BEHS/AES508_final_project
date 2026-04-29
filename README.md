@@ -22,7 +22,7 @@ The study area is the San Salvador metropolitan area in El Salvador. The city's 
 
 To estimate **UHI intensity (UHII)**, I used [Oke (1973)](https://doi.org/10.1016/0004-6981(73)90140-6)’s methodology, which evaluates the differences between the average and maximum temperatures of urban areas, contrasted with those parameters for nearby rural areas. As an input to this, I derived LCZs for San Salvador, using a range of inputs (mainly from high spatial resolution multispectral imagery), and based on Oke et al. (2017). I reclassified LCZs 1,2,3, as urban areas, and LCZs 6 and 9 as rural. To estimate the mean and maximum temperatures, I used LST data derived from the thermal infrared bands of the [Landsat-8](https://www.usgs.gov/landsat-missions/landsat-8) and [Landsat-9](https://www.usgs.gov/landsat-missions/landsat-9) satellites. 
 
-**Table 1.** Data sources used.
+**Table 1.** Data reclassification scheme.
 
 | Code | LCZ | Mean elevation above sea level (m) |
 | --- | --- | --- |
