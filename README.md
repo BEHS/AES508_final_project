@@ -57,7 +57,7 @@ This function uses the “boxplot” function of the [*seaborn*](https://seaborn
 
 <img width="366" height="278" alt="image" src="https://github.com/user-attachments/assets/e093fade-6da1-4f8a-9b31-c7186190f78c" />
 
-**Figure 1.** Average UHI per LCZ.
+**Figure 1.** Average UHII per LCZ in San Salvador.
 
 ## Outputs
 1. This [Python Notebook](https://github.com/BEHS/AES508_final_project/blob/main/python_notebook/research_prj.ipynb) can be used to replicate and upscale the analysis to other years and places. 
